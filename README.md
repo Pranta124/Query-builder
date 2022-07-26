@@ -1,4 +1,5 @@
 # Query-builder
+```
  public function slider_2()
     {
         // for slider
@@ -377,6 +378,7 @@
                            ->where('discount_price', '!=', 0);
                    });
            })
-           ->get(['id','product_thambnail','product_name','selling_price','discount_price','product_qty','product_stock_alert','unit','product_color','product_size','product_descp','video_link']);
+          -  >get(['id','product_thambnail','product_name','selling_price','discount_price','product_qty','product_stock_alert','unit','product_color','product_size','product_descp','video_link']);
        return response()->json($querys);
    }
+   ```
